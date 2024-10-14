@@ -1,9 +1,12 @@
-# Tauri + Vanilla
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+# Tray app for Resilio Sync
 
-## Recommended IDE Setup
+https://github.com/tauri-apps/wry
+https://github.com/tauri-apps/tray-icon
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+```
+sudo dnf install gtk3-devel webkit2gtk4.1-devel
+sudo dnf install gtk3 xdotool libappindicator-gtk3 #or libayatana-appindicator-gtk3
+```
 
-https://v2.tauri.app/start/prerequisites/#linux
+Currently requires `WEBKIT_DISABLE_DMABUF_RENDERER=1` under Wayland
