@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=env WEBKIT_DISABLE_DMABUF_RENDERER=1 '~/.local/share/sync-tray/sync-tray'
+Icon=~/.local/share/sync-tray/icon.png
+Name=Resilio Sync Tray
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-KDE-autostart-after=panel
