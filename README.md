@@ -1,6 +1,10 @@
 
 # Linux tray app for Resilio Sync
 
+## Install Resilio Sync
+
+https://help.resilio.com/hc/en-us/articles/206178924-Installing-Sync-package-on-Linux
+
 ## Install dependencies
 
 ```
