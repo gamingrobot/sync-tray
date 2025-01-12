@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Exec=env WEBKIT_DISABLE_DMABUF_RENDERER=1 '~/.local/share/sync-tray/sync-tray'
-Icon=~/.local/share/sync-tray/icon.png
+Exec=env WEBKIT_DISABLE_DMABUF_RENDERER=1 '/opt/sync-tray/sync-tray'
+Icon=/opt/sync-tray/icon.png
 Name=Resilio Sync Tray
 StartupNotify=true
 Terminal=false
